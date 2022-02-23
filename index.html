@@ -5,15 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width= , initial-scale=1.0" />
     <title>Fehime Nur Uysal - Kişisel Web Sayfası</title>
+    <style>
+      body{
+        background-color :#EEEEEE;
+        color: #0e0d0d;
+      }
+      .GenelBilgiler{
+        background-color: #395b64; 
+        text-align: center;
+        padding: 25px;
+      }
+      a.GenelBilgiler { 
+        color:#EEEEEE; 
+        text-decoration: none;
+      }
+      hr{
+        background-color: #395b64;
+        border:1px solid #395b64 ;
+        border-radius : 5px;
+      }
+      a{
+        color: #0e0d0d;
+      }
+      h1{
+        text-align: center;
+      }
+      h3{
+        padding-left: 10px;
+        text-align: center;
+      }
+      p{
+        padding-left: 10px;
+        margin-left: 10%; 
+        margin-right: 10%;
+        text-align: center;
+      }
+      #Meslek{
+        text-decoration: none;
+      }
+      table.part{ 
+        padding-left: 10px; 
+        margin-left:30%; 
+        margin-right: auto;
+      }
+    </style>
   </head>
-  <body style="background-color :#EEEEEE">
-        <div id ='GenelBilgiler' style="background-color: #395b64; text-align: center; padding: 25px;">
-            <a href = 'index.html' style="color:#EEEEEE; text-decoration: none;"> Anasayfa </a>
-            <a href ='sertifikalarim.html' style="color:#EEEEEE; text-decoration: none;">| Sertifikalarım </a>
-            <a href="iletisim.html" style="color:#EEEEEE; text-decoration: none;"> | İletişim </a>
+  <body>
+        <div class ='GenelBilgiler'>
+            <a href = 'index.html' class ='GenelBilgiler'> Anasayfa </a>
+            <a href ='sertifikalarim.html'class ='GenelBilgiler' > Sertifikalarım </a>
+            <a href="iletisim.html" class ='GenelBilgiler'> İletişim </a>
         </div>
-        <hr size="3" noshade style="background-color: #CAF0F8 ;"/>
-        <table cellspacing="10" style="color:#0e0d0d ; width: 100%;" >
+        <hr />
+        <table cellspacing="10" style="width: 100%;" >
           <tbody>
             <tr>
               <td> 
@@ -28,12 +72,12 @@
             </tr>
             <tr>
               <td>
-                <h1 style="color:#0e0d0d ; text-align: center;">Fehime Nur Uysal</h1>
-                <p style="color:#0e0d0d ; text-align: center;">
+                <h1>Fehime Nur Uysal</h1>
+                <p>
                   <em>
                     <strong>
-                      <a href="https://www.kaplanlar.com/" style="color:#0e0d0d ; text-decoration: none;"> Kaplanlar Soğutma  - ERP
-                        Uzmanı</a>
+                      <a id='Meslek' href="https://www.kaplanlar.com/">Kaplanlar Soğutma  - ERP
+                        Uzmanı </a>
                     </strong>
                   </em>
                 </p> 
@@ -41,7 +85,7 @@
             </tr>
           </tbody>
         </table>
-        <p  style='color: #0e0d0d; padding-left: 10px; margin-left: 10%; margin-right: 10%;'>
+        <p>
           Ben Fehime Nur Uysal. Kaplanlar Soğutma'da ERP Uzmanı olarak
           çalışmaktayım. Öncesinde Burkay Group bünyesinde 2 aylık çalışma tecrübem
           oldu. Bunlara ek olarak, Chassis Brakes International firmasında Bilgi
@@ -50,16 +94,16 @@
           oldum. Yapay zeka ile ilgili araştırmalar yapmaktayım. BMO Genç kapsamında
           4 yıl Uludağ Üniversitesi yöneticisi olarak görev aldım. Intermediate seviyesinde İngilizce bilmekteyim.
         </p>
-        <hr size="2" style="background-color: #CAF0F8 ;"/>
-        <h3 id="EgitimHayatim"  style="color:#0e0d0d ; padding-left: 10px;text-align: center;"> Eğitim Hayatım</h3>
-        <table cellspacing ='20'  style="color:#0e0d0d; margin-left:30%; margin-right: auto;">
+        <hr/>
+        <h3 id="EgitimHayatim"> Eğitim Hayatım</h3>
+        <table class='part' cellspacing ='20' >
           <tbody>
             <tr>
               <td>
                 🎓 2016 - 2020
               </td>
               <td> 
-                <a href="https://uludag.edu.tr/bm"  style="color:#0e0d0d">
+                <a href="https://uludag.edu.tr/bm">
                   Uludağ Üniversitesi - Bilgisayar Mühendisliği
                 </a> 
               </td>
@@ -69,7 +113,7 @@
                 🎓 2016 - 2020
               </td>
               <td> 
-                <a href="http://ce.muhendislik.comu.edu.tr/"  style="color:#0e0d0d">
+                <a href="http://ce.muhendislik.comu.edu.tr/">
                   Çanakkale 18 Mart Üniversitesi - Bilgisayar Mühendisliği
                 </a>
               </td>
@@ -79,7 +123,7 @@
                 🎓 2015 - 2016
               </td>
               <td> 
-                <a href="https://ydyo.btu.edu.tr/index.php"  style="color:#0e0d0d">
+                <a href="https://ydyo.btu.edu.tr/index.php">
                   Bursa Orhangazi Üniversitesi(Yabancı Diller Yüksek Okulu) - Dil
                   Hazılık Eğitimi
                 </a>
@@ -90,16 +134,16 @@
                 🎓 2010 - 2014
               </td>
               <td> 
-                <a href="https://esal.meb.k12.tr/"  style="color:#0e0d0d">
+                <a href="https://esal.meb.k12.tr/">
                   Emir Sultan Anadolu Lisesi - MF
                 </a>
               </td>
             </tr>
           </tbody>
         </table>
-        <hr size="2" style="background-color: #CAF0F8 "/>
-        <h3 id="Yeteneklerim"  style="color:#0e0d0d ; padding-left: 10px;text-align: center;"> Yeteneklerim </h3>
-        <table cellspacing="10"  style="color:#0e0d0d ; padding-left: 10px; margin-left:30%; margin-right: auto;">
+        <hr/>
+        <h3 id="Yeteneklerim"> Yeteneklerim </h3>
+        <table  class='part' cellspacing="10">
           <tr>
             <td>Python Programlama</td>
             <td>⭐⭐⭐⭐</td>
@@ -143,9 +187,9 @@
             <td>⭐⭐⭐⭐</td>
           </tr>
         </table>
-        <hr size="2" style="background-color: #CAF0F8 "/>
-        <h3 id="Projelerim"  style="color:#0e0d0d ; padding-left: 10px;text-align: center;"> Projelerim </h3>
-        <table cellspacing="10"  style="color:#0e0d0d ; padding-left: 10px; margin-left:30%; margin-right: auto;">
+        <hr/>
+        <h3 id="Projelerim" > Projelerim </h3>
+        <table class='part' cellspacing="10" >
           <tr>
             <td>🎯 Diyabetik Retinopati Tespiti Web Sayfası</td>
             <td>03.2020 - 05.2020</td>
