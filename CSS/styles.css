@@ -14,6 +14,13 @@ a.GenelBilgiler {
   padding: 5px;
   text-decoration: none;
 }
+a.GenelBilgiler:hover {
+  color: #395b64;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #eeeeee;
+  border-radius: 15px;
+}
 hr {
   border-top: 5px dotted #395b64;
   width: 2%;
