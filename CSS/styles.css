@@ -1,0 +1,63 @@
+body {
+  background-color: #eeeeee;
+  color: #0e0d0d;
+  width: 100%;
+}
+.GenelBilgiler {
+  background-color: #395b64;
+  text-align: center;
+  padding: 20px;
+  margin-left: auto;
+}
+a.GenelBilgiler {
+  color: #eeeeee;
+  text-decoration: none;
+  padding: 5px;
+}
+hr {
+  border-top: 5px dotted #395b64;
+  width: 2%;
+}
+hr.FirstLine {
+  background-color: #395b64;
+  border: 1px solid #395b64;
+  border-radius: 5px;
+  height: 50px;
+  width: 80%;
+}
+a {
+  color: #0e0d0d;
+}
+h1 {
+  text-align: center;
+}
+h3 {
+  padding-left: 10px;
+  text-align: center;
+}
+p {
+  padding-left: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+#Meslek {
+  text-decoration: none;
+}
+table.part {
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  padding: 15px;
+}
+body {
+  width: 100%;
+}
+table {
+  color: #0e0d0d;
+  padding-left: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
