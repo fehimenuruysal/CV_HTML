@@ -6,13 +6,18 @@ body {
 .GenelBilgiler {
   background-color: #395b64;
   margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
   text-align: center;
+  width: 95%;
   padding: 20px;
+  position: fixed;
 }
 a.GenelBilgiler {
   color: #eeeeee;
   padding: 5px;
   text-decoration: none;
+  position: relative;
 }
 a.GenelBilgiler:hover {
   color: #395b64;
@@ -20,6 +25,7 @@ a.GenelBilgiler:hover {
   text-decoration: none;
   background-color: #eeeeee;
   border-radius: 15px;
+  position: relative;
 }
 hr {
   border-top: 5px dotted #395b64;
@@ -77,4 +83,5 @@ img.profile {
   border-radius: 100px;
   height: 200px;
   width: auto;
+  margin-top: 50px;
 }
